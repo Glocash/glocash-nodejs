@@ -17,7 +17,6 @@
  *   MC   | 5200000000000023 | 03/2022 | 431 | 74  3ds paid
  *   MC   | 5200000000000106 | 04/2022 | 578 | 104 3ds paid
  *
- *  想测试失败 可以填错年月日或者ccv即可
  */
 
 let http = require('http');
@@ -39,6 +38,7 @@ var data = {
     REQ_EMAIL:'2101653220@qq.com',
     REQ_TIMES:Date.parse(new Date())/1000,
     REQ_INVOICE:'TEST'+parseInt(Math.random()*1000000),
+    REQ_APPID: 380,
     BIL_METHOD:'C01',
     REQ_MERCHANT:'Merchant Name',
     BIL_GOODSNAME:'#gold#Runescape/OSRS Old School/ 10M Gold',
