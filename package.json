@@ -1,0 +1,12 @@
+{
+  "name": "glocash-payment",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "crypto": "^1.0.1",
+    "glocash": "^1.0.0",
+    "http": "0.0.1-security",
+    "qs": "^6.11.0",
+    "querystring": "^0.2.1"
+  }
+}
